@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/TO-DOlist/Quarantine_Houses_Lede.0.jpeg);
+}
+.container{
+    width: 100%;
+    color: snow;
+}
+h1{
+    font-size: 50px;
+    border: 5px black double;
+    text-align: center;
+}
+.box h2{
+    font-size: 30px;
+    border: 5px snow dotted;
+    text-align: center;
+}
+.box{
+    width: 50%;
+    height: 50%;
+    border: 1px snow solid;
+    float: left;
+}
+.top{
+    display: flex;
+    height: inherit;
+    align-items: stretch;
+}
+.bottom{
+    display: flex;
+    height: inherit;
+    align-items: stretch;
+}
+.box-1{
+    background-color: rgba(172, 255, 47, 0.521);
+}
+.box-1:hover{
+    background-color: greenyellow;
+}
+.box-2{
+    background-color: rgba(137, 43, 226, 0.425);
+}
+.box-2:hover{
+    background-color: blueviolet;
+}
+.box-3{
+    background-color: rgba(255, 166, 0, 0.493);
+}
+.box-3:hover{
+    background-color: orange;
+}
+.box-4{
+    background-color: rgba(255, 0, 0, 0.473);
+}
+.box-4:hover{
+    background-color: red;
+}
